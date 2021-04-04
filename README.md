@@ -1,6 +1,8 @@
+[![Test Status](https://github.com/IrvanFza/BasicTDD/actions/workflows/rspec.yml/badge.svg)](https://github.com/IrvanFza/BasicTDD/actions)
+
 # Basic TDD Example
 
-In this repository, I create the process of Test-Drive Development (TDD) step-by-step. You can see each step by checking out available branches respectively.
+In this repository, I create the process of Test-Driven Development (TDD) step-by-step. You can see each step by checking out available branches respectively.
 
 I use FizzBuzz word game as the main problem to solve. [Ruby](https://github.com/ruby/ruby) is the programming language I use with [RSpec](https://github.com/rspec/rspec) as the test framework.
 
