@@ -37,5 +37,20 @@ describe FizzBuzz do
         expect(result).to eq(1)
       end
     end
+
+    context 'returns error' do
+      it 'if the input is empty' do
+        result = fizz_buzz.divisible_by(nil)
+        expect(result).to eq('Input cannot be blank.')
+      end
+      it 'if the input is a zero number' do
+        result = fizz_buzz.divisible_by(0)
+        expect(result).to eq('Input cannot be a zero.')
+      end
+      it 'if the input is a negative number' do
+        result = fizz_buzz.divisible_by(-1)
+        expect(result).to eq('Input cannot be a negative number.')
+      end
+    end
   end
 end
