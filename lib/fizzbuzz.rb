@@ -5,6 +5,10 @@ class FizzBuzz
   BUZZ = 'Buzz'
 
   def self.divisible_by(input)
+    return 'Input cannot be blank.' if input.nil?
+    return 'Input cannot be a zero.' if input.zero?
+    return 'Input cannot be a negative number.' if input.negative?
+
     fizz = (input % 3 == 0)
     buzz = (input % 5 == 0)
     return case
