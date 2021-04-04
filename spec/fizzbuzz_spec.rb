@@ -16,5 +16,17 @@ describe FizzBuzz do
       result = FizzBuzz.divisible_by(15)
       expect(result).to eq('FizzBuzz')
     end
+    it 'returns the input if not divisible by 3' do
+      result = FizzBuzz.divisible_by(1)
+      expect(result).to eq(1)
+    end
+    it 'returns the input if not divisible by 5' do
+      result = FizzBuzz.divisible_by(1)
+      expect(result).to eq(1)
+    end
+    it 'returns the input if not divisible by 3 and 5' do
+      result = FizzBuzz.divisible_by(1)
+      expect(result).to eq(1)
+    end
   end
 end
