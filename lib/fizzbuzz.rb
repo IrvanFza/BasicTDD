@@ -8,6 +8,8 @@ class FizzBuzz
       return 'Fizz'
     elsif input % 5 == 0
       return 'Buzz'
+    else
+      return input
     end
   end
 end
